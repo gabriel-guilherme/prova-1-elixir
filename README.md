@@ -8,3 +8,5 @@ Prova.log(10, 1)
 ```
 
 Sendo "x" o número a ser procurado o logaritmo natural e "e" o ε em formato de inteiro a ser transformado para um número com 35 casas decimais negativas.
+
+Contém comentários no código ./lib/prova.ex
