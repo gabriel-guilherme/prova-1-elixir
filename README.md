@@ -1,21 +1,10 @@
-# Prova
+## Logaritmo natural
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `prova` to your list of dependencies in `mix.exs`:
+É um programa em elixir que implementa uma função para encontrar o valor do logaritmo natural de um número com precisão ε. Além de outra função auxiliar para potenciação. Exemplo de entrada abaixo:
 
 ```elixir
-def deps do
-  [
-    {:prova, "~> 0.1.0"}
-  ]
-end
+Prova.log(x, e)
+Prova.log(10, 1)
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/prova>.
-
+Sendo "x" o número a ser procurado o logaritmo natural e "e" o ε em formato de inteiro a ser transformado para um número com 35 casas decimais negativas.
